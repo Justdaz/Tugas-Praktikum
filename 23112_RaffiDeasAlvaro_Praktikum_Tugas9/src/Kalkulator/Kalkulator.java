@@ -494,9 +494,9 @@ public class Kalkulator extends javax.swing.JFrame {
                 tampilHasil.setText(angka);
                 break;
              case 6:
-                bil2 = Double.parseDouble(angka); // Mengubah String menjadi double
-                double hasil = Math.sqrt(bil2); // Menghitung akar kuadrat dari bill2
-                tampilHasil.setText(String.valueOf(hasil)); // Mengubah hasil menjadi String dan menampilkannya
+                bil2 = Double.parseDouble(angka); 
+                double hasil = Math.sqrt(bil2); 
+                tampilHasil.setText(String.valueOf(hasil)); 
                 break;
 
             default:
